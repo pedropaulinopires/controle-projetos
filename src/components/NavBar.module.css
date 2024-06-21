@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background-color: rgb(80, 153, 236);
+    align-items: center;
+}
+
+.img_navbar{
+    background-image: url("../imgs/img_navbar.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.itens_menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.link_active{
+    border-bottom: 1px solid white;
+}

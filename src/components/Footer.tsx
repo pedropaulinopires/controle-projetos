@@ -1,9 +1,12 @@
 import React from "react";
+import styles from "./Footer.module.css"
+import {FaFacebook, FaInstagram, FaLinkedin} from "react-icons/fa";
 
 const Footer: React.FC = () => {
     return (
-        <footer>
-            <p>© 2022 My Website. All rights reserved.</p>
+        <footer className={styles.footer}>
+            <div className={styles.medias}><FaFacebook/> <FaInstagram/> <FaLinkedin/></div>
+            <p> Gestão de projetos © 2024.</p>
         </footer>
     )
 }
