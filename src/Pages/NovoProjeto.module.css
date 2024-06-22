@@ -1,0 +1,19 @@
+.novo_projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 4em 0em;
+}
+
+.novo_projeto h1{
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+
+.novo_projeto p{
+    margin-bottom: 25px;
+}
+   
+

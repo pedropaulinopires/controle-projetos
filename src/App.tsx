@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Projetos from './Pages/Projetos';
 import Container from './layout/Container';
+import NovoProjeto from './Pages/NovoProjeto';
 
 export const App = () => {
   return (
@@ -16,9 +17,9 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projetos" element={<Projetos />} />
+          <Route path="/novo-projeto" element={<NovoProjeto />} />
         </Routes>
       </Container>
-
       <Footer />
     </BrowserRouter>
   );

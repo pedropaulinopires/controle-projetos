@@ -1,0 +1,27 @@
+.form{
+    width: 80vw;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.campo input{
+    border: 0.5px solid rgb(175, 175, 175);
+    padding: 2px 5px;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.campo input:focus{
+    border: 0.5px solid rgb(189, 198, 248);
+    color: rgb(60, 60, 60);
+}
+
+.btns{
+    display: flex;
+    justify-content: end;
+    gap:15px;
+}
