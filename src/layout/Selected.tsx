@@ -4,12 +4,13 @@ import styles from "./Selected.module.css";
 
 const Selected: React.FC<ISelectInputProps> = ({ textDefault, name, id, required,
     values,
-    disabled }) => {
+    disabled,
+    handleChange }) => {
     return (
-        <select className={styles.select} name={name} id={id}>
+        <select className={styles.select} name={name} id={id} onChange={handleChange}>
             <option disabled selected>{textDefault}</option>
             {values.map(value => (
-                <option key={value.nome} value={value.nome}>{value.nome}</option>
+                <option key={value.id} value={value.id}>{value.nome}</option>
             ))}
         </select>
     )

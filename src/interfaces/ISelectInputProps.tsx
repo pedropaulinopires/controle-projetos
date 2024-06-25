@@ -8,6 +8,7 @@ interface ISelectInputProps {
     required: boolean;
     values: Array<TiposProjetos>;
     disabled: boolean;
+    handleChange: (event: React.ChangeEvent<HTMLSelectElement>) => void;
 }
 
 export default ISelectInputProps;

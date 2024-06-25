@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "id": "93ad",
+      "nome_projeto": "Teste",
+      "orcamento_projeto": "1587",
+      "category": {
+        "id": "2",
+        "nome": "Desenvolvimento"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "nome": "Infra"
+    },
+    {
+      "id": "2",
+      "nome": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "nome": "Design"
+    },
+    {
+      "id": "4",
+      "nome": "Planejamento"
+    }
+  ]
+}
