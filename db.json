@@ -8,6 +8,15 @@
         "id": "2",
         "nome": "Desenvolvimento"
       }
+    },
+    {
+      "id": "680a",
+      "nome_projeto": "TESTE 3",
+      "orcamento_projeto": "3698",
+      "category": {
+        "id": "1",
+        "nome": "Infra"
+      }
     }
   ],
   "categories": [

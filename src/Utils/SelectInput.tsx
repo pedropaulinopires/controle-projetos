@@ -1,9 +1,7 @@
 import React from "react";
-import IInputProps from "../interfaces/IInputProps";
 import TiposProjetos from "./TiposProjetos";
-import ISelectInputProps from "../interfaces/ISelectInputProps";
 
-class SelectInput implements ISelectInputProps {
+class SelectInput  {
 
     textDefault: string;
     name: string;
@@ -18,7 +16,8 @@ class SelectInput implements ISelectInputProps {
         id: string,
         required: boolean,
         values: Array<TiposProjetos>,
-        disabled: boolean) {
+        disabled: boolean
+    ) {
 
         this.textDefault = textDefault;
         this.name = name;
